@@ -1,0 +1,38 @@
+header {
+    background-color: rgba(231, 218, 31, 0.651);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 45px;
+    width: 300px;
+    border: white solid 0px;
+    border-radius: 5px;
+    font-size: 19px;
+    padding: 5px;
+}
+
+.button {
+    align-self: flex-start;
+    height: 25px;
+    width: auto;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    user-select: none;
+    padding: 5px 10px;
+    margin: 5px;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+    background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease s;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
